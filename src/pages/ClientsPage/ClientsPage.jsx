@@ -1,6 +1,14 @@
 import PageAppBar from "../../components/PageAppBar";
 import { Box, Link } from "@mui/material";
 import FooterComponent from "../../components/FooterComponent";
+import first from "../../image/clients/1.jpg";
+import second from "../../image/clients/2.jpg";
+import third from "../../image/clients/3.jpg";
+import fourth from "../../image/clients/4.jpg";
+import fifth from "../../image/clients/5.jpg";
+import sixth from "../../image/clients/6.jpg";
+import seventh from "../../image/clients/7.jpg";
+import eighth from "../../image/clients/8.jpg";
 
 export default function ClientsPage() {
   return (
@@ -19,28 +27,28 @@ export default function ClientsPage() {
         }}
       >
         <Link href="#">
-          <img src="public/img/clients/1.jpg" alt="1" />
+          <img src={first} alt="1" />
         </Link>
         <Link href="#">
-          <img src="public/img/clients/2.jpg" alt="2" />
+          <img src={second} alt="2" />
         </Link>
         <Link href="#">
-          <img src="public/img/clients/3.jpg" alt="3" />
+          <img src={third} alt="3" />
         </Link>
         <Link href="#">
-          <img src="public/img/clients/4.jpg" alt="4" />
+          <img src={fourth} alt="4" />
         </Link>
         <Link href="#">
-          <img src="public/img/clients/5.jpg" alt="5" />
+          <img src={fifth} alt="5" />
         </Link>
         <Link href="#">
-          <img src="public/img/clients/6.jpg" alt="6" />
+          <img src={sixth} alt="6" />
         </Link>
         <Link href="#">
-          <img src="public/img/clients/7.jpg" alt="7" />
+          <img src={seventh} alt="7" />
         </Link>
         <Link href="#">
-          <img src="public/img/clients/8.jpg" alt="8" />
+          <img src={eighth} alt="8" />
         </Link>
       </Box>
       <FooterComponent />
