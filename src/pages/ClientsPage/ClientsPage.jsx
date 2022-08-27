@@ -19,28 +19,28 @@ export default function ClientsPage() {
         }}
       >
         <Link href="#">
-          <img src="src/img/clients/1.jpg" alt="1" />
+          <img src="public/img/clients/1.jpg" alt="1" />
         </Link>
         <Link href="#">
-          <img src="src/img/clients/2.jpg" alt="2" />
+          <img src="public/img/clients/2.jpg" alt="2" />
         </Link>
         <Link href="#">
-          <img src="src/img/clients/3.jpg" alt="3" />
+          <img src="public/img/clients/3.jpg" alt="3" />
         </Link>
         <Link href="#">
-          <img src="src/img/clients/4.jpg" alt="4" />
+          <img src="public/img/clients/4.jpg" alt="4" />
         </Link>
         <Link href="#">
-          <img src="src/img/clients/5.jpg" alt="5" />
+          <img src="public/img/clients/5.jpg" alt="5" />
         </Link>
         <Link href="#">
-          <img src="src/img/clients/6.jpg" alt="6" />
+          <img src="public/img/clients/6.jpg" alt="6" />
         </Link>
         <Link href="#">
-          <img src="src/img/clients/7.jpg" alt="7" />
+          <img src="public/img/clients/7.jpg" alt="7" />
         </Link>
         <Link href="#">
-          <img src="src/img/clients/8.jpg" alt="8" />
+          <img src="public/img/clients/8.jpg" alt="8" />
         </Link>
       </Box>
       <FooterComponent />
