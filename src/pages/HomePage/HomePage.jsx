@@ -114,27 +114,27 @@ export default function HomePage() {
           }}
         >
           <img
-            src="src/img/h&m.jpg"
+            src="public/img/h&m.jpg"
             alt="h&m"
             style={{ display: "block", width: "200px", height: "150px" }}
           />
           <img
-            src="src/img/mc.jpg"
+            src="public/img/mc.jpg"
             alt="mcdonalds"
             style={{ display: "block", width: "200px", height: "100px" }}
           />
           <img
-            src="src/img/starbucks.png"
+            src="public/img/starbucks.png"
             alt="starbucks"
             style={{ display: "block", width: "200px", height: "150px" }}
           />
           <img
-            src="src/img/fridays.jpg"
+            src="public/img/fridays.jpg"
             alt="fridays"
             style={{ display: "block", width: "200px", height: "150px" }}
           />
           <img
-            src="src/img/belavia_bilety.jpg"
+            src="public/img/belavia_bilety.jpg"
             alt="belavia"
             style={{
               display: "block",
