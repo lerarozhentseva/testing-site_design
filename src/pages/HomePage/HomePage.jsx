@@ -1,6 +1,11 @@
 import { Box, Stack, Typography } from "@mui/material";
 import PageAppBar from "../../components/PageAppBar";
 import FooterComponent from "../../components/FooterComponent";
+import h_m from "../../image/h&m.jpg";
+import mcdonalds from "../../image/mc.jpg";
+import fridays from "../../image/fridays.jpg";
+import starbucks from "../../image/starbucks.png";
+import belavia from "../../image/belavia_bilety.jpg";
 
 export default function HomePage() {
   return (
@@ -114,27 +119,27 @@ export default function HomePage() {
           }}
         >
           <img
-            src="public/img/h&m.jpg"
+            src={h_m}
             alt="h&m"
             style={{ display: "block", width: "200px", height: "150px" }}
           />
           <img
-            src="public/img/mc.jpg"
+            src={mcdonalds}
             alt="mcdonalds"
             style={{ display: "block", width: "200px", height: "100px" }}
           />
           <img
-            src="public/img/starbucks.png"
+            src={starbucks}
             alt="starbucks"
             style={{ display: "block", width: "200px", height: "150px" }}
           />
           <img
-            src="public/img/fridays.jpg"
+            src={fridays}
             alt="fridays"
             style={{ display: "block", width: "200px", height: "150px" }}
           />
           <img
-            src="public/img/belavia_bilety.jpg"
+            src={belavia}
             alt="belavia"
             style={{
               display: "block",
